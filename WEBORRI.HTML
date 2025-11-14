@@ -1,0 +1,113 @@
+<HTML>
+	<head>
+		<TITLE> NIRE LEHEN ORRIA </TITLE>
+	</HEAD>
+	<BODY>
+
+<h1> </h1> Izenburua 1
+<h2> </h2> Izenburua 2
+<h3> </h3> Izenburua 3
+<HR> Barra
+<p> </p> Testua eta parrafo saltoa
+<center> </center> zentratu
+<b> </b> negrita 
+<i> </i> Kursiba 
+<font size="45"> … </font> tamainoa aukeratzeko
+Align="right" Alineatzeko
+<ul>  Zerrenda ordenatu gabe
+    <li>…
+    <li>…
+    <li>…
+    <li>…
+</ul>
+
+<ol>  Zerrenda zenbakiekin
+    <li>…
+    <li>…
+    <li>…
+    <li>…
+</ol>
+<dl>  Zerrenda mailakatua 
+    <dt> maila altua
+    <dd> maila baxua
+    <dd> maila baxua
+    <dt> maila altua
+    <dd> maila baxua
+    <dd> maila baxua
+</dl>
+
+<img src="" alt=""> Irudiak sartzea
+Heidht=
+Width=
+
+Taulak sartzea
+    <style>
+        table {
+            width:;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border:;
+            padding:;
+            text-align:;
+        }
+        th {
+            background-color: #
+            color:;
+        }
+    </style>
+<table>
+        <thead>
+            <tr>
+                <th>…</th>
+                <th>…</th>
+                <th>…</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>…</td>
+                <td>…</td>
+                <td>…</td>
+            </tr>
+            <tr>
+                <td>…</td>
+                <td>…</td>
+                <td>…</td>
+            </tr>
+        </tbody>
+    </table>
+<A HREF=”link-a”>esaldia</A> Enlazeak sartzea
+
+<BUTTON onclick=” funtzioa()”>botoiaren izena</BUTTON> Botoiak sartzea
+    <script>
+        function funtzioa(){
+        }
+    </script>
+    <select id='aukera' name='aukera_anitza' onchange="funtzio(this)">
+        <option value=""></option>
+        <option value="1balioa">1 aukera</option>
+        <option value="2balioa">2 aukera</option>
+        <option value="3balioa">3 aukera</option>
+    </select>
+ <script>
+    function funtzio(sel) {
+        var val = document.getElementById('aukera').value;
+        
+        if(val == "1balioa ")
+        {
+            window.location="http://www.aaaaaaaa.eus";
+        }
+        if(val == "2balioa ")
+        {
+            window.location="https://www.bbbbbb.eus";
+        }
+        if(val == "3balioa")
+        {
+            window.location="https://www.cccccc.eus/";
+        }
+        alert(val);
+      }
+    </script>
+</BODY>
+</HTML>
